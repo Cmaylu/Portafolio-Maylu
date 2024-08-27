@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+nav {
+    background-color: #141010;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-dropdown {
+    display: none;} 
+
+footer {
+    color: white;
+    background-color: #141010;
+    font-size: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.logo-container {
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card {
+    font-size: 30px;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-inner {
+    padding: 0 15px;
+}
+
+.card-titlep {
+    font-size: 20px;
+}
+
+.card-textp {
+    font-size: 18px;
+}
+
+.card-img-left {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.card-img {
+    width: 80%;
+    height: auto;
+}
+
+.carda {
+    margin: 0 auto; 
+    max-width: 540px; 
+}
+
+.row {
+    display: flex; 
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+    }
+
+
+
+    .card-img-overlay {
+        font-size: 12px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-img {
+        width: 100%; /* Adjust width as needed */
+    }
+
+    .card-texta, .link, .text-body-secondary {
+        font-size: 12px;
+    }
+
+ 
+    footer {
+        font-size: 6px;
+    }
+
+    .card a {
+        max-width: 100%;
+    }
+}
+
+
