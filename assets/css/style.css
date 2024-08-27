@@ -70,6 +70,12 @@ footer {
     font-size: 18px;
 }
 
+.text-body-secondary, .link, {
+    font-size: 18px;
+
+
+}
+
 .card-img-left {
     width: 100%;
     height: auto;
@@ -124,7 +130,7 @@ footer {
         width: 100%; /* Adjust width as needed */
     }
 
-    .card-texta, .link, .text-body-secondary {
+    .card-texta, .link, .text-body-secondary, .card-titlep, .card-textp, .text-body-secondary, .card-footer {
         font-size: 12px;
     }
 
